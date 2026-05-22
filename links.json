@@ -1,8 +1,8 @@
 {
   "_comment": "Source of truth for every clickable URL on the site. Replace REPLACE_ME values after creating the corresponding Calendly event, PandaDoc document, or Stripe Payment Link. Refresh the site after saving \u2014 no rebuild needed.",
   "calendly": "https://calendly.com/missoulahp/30min",
-  "waiver-adult": "https://form.jotform.com/REPLACE_ME_adult-waiver",
-  "waiver-minor": "https://form.jotform.com/REPLACE_ME_minor-waiver",
+  "waiver-adult": "https://form.jotform.com/261417138062149",
+  "waiver-minor": "https://form.jotform.com/261416867053157",
   "stripe": {
     "sport-1on1-4": "https://buy.stripe.com/test_dRm3cweig5Ij6Zc5aWcV200",
     "sport-1on1-8": "https://buy.stripe.com/test_aFa5kEca80nZbfscDocV201",
