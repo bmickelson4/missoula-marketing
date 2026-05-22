@@ -420,34 +420,6 @@
 
 </main>
 
-<!-- Waiver gate modal — appears when user clicks Buy without a signed waiver on file -->
-<div id="waiverModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
-  <div class="modal-overlay" data-modal-close></div>
-  <div class="modal-card">
-    <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
-    <p class="modal-eyebrow">Step 1 of 2 &mdash; before purchase</p>
-    <h3 id="modalTitle">Sign your liability waiver first.</h3>
-    <p class="modal-body">
-      Every MHP client signs a liability waiver before training &mdash; it's required before session #1 and protects everyone. Takes about 2 minutes online.
-    </p>
-    <div class="modal-actions">
-      <a class="btn btn-primary" data-modal-waiver="adult" data-link="waiver-adult">I'm 18+ &mdash; Sign Adult Waiver</a>
-      <a class="btn btn-ghost" data-modal-waiver="minor" data-link="waiver-minor">Signing for a minor athlete</a>
-    </div>
-    <p class="modal-foot">
-      After signing, you'll be returned here and can complete your purchase. Already signed in person? <a href="mailto:BMickelson@gmail.com?subject=Already%20signed%20waiver%20—%20enable%20purchase">Email Brennan</a> and we'll get you set up.
-    </p>
-  </div>
-</div>
-
-<!-- Waiver status banner — shows after a successful JotForm redirect -->
-<div id="waiverBanner" class="waiver-banner" aria-hidden="true">
-  <span class="waiver-banner-icon" aria-hidden="true">&check;</span>
-  <span id="waiverBannerText">Waiver signed.</span>
-  <button id="waiverBannerReset" class="waiver-banner-reset" aria-label="Change waiver signer">Change</button>
-  <button id="waiverBannerClose" class="waiver-banner-close" aria-label="Dismiss">&times;</button>
-</div>
-
 <footer class="footer">
   <div class="footer-grid">
     <div class="footer-brand">
@@ -463,10 +435,10 @@
       <span>Missoula, Montana</span>
     </div>
     <div class="footer-legal">
-      <a data-link="waiver-adult">Adult Waiver</a>
-      <a data-link="waiver-minor">Minor Waiver</a>
-      <a href="mailto:BMickelson@gmail.com?subject=Request%20PT%20Service%20Agreement">PT Service Agreement</a>
-      <a href="mailto:BMickelson@gmail.com?subject=Request%20Team%20Agreement">Team Agreement</a>
+      <a data-link="waiver-adult">Adult Waiver (sign online)</a>
+      <a data-link="waiver-minor">Minor Waiver (sign online)</a>
+      <a href="/downloads/MHP_Agreement_PT.pdf" target="_blank">PT Service Agreement (PDF)</a>
+      <a href="/downloads/MHP_Agreement_Team.pdf" target="_blank">Team Agreement (PDF)</a>
     </div>
     <div class="footer-downloads">
       <div class="footer-dl-title">Printable Handouts</div>
