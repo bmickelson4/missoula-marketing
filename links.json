@@ -1,0 +1,32 @@
+{
+  "_comment": "Source of truth for every clickable URL on the site. Replace REPLACE_ME values after creating the corresponding Calendly event, PandaDoc document, or Stripe Payment Link. Refresh the site after saving — no rebuild needed.",
+
+  "calendly": "https://calendly.com/REPLACE_ME/free-assessment",
+
+  "waiver-adult": "https://app.pandadoc.com/document/REPLACE_ME_adult-waiver",
+  "waiver-minor": "https://app.pandadoc.com/document/REPLACE_ME_minor-waiver",
+  "agreement-pt": "https://app.pandadoc.com/document/REPLACE_ME_pt-agreement",
+  "agreement-team": "https://app.pandadoc.com/document/REPLACE_ME_team-agreement",
+
+  "stripe": {
+    "sport-1on1-4":  "https://buy.stripe.com/REPLACE_ME_sport-1on1-4pack",
+    "sport-1on1-8":  "https://buy.stripe.com/REPLACE_ME_sport-1on1-8pack",
+    "sport-1on1-12": "https://buy.stripe.com/REPLACE_ME_sport-1on1-12pack",
+    "sport-pair-4":  "https://buy.stripe.com/REPLACE_ME_sport-pair-4pack",
+    "sport-pair-8":  "https://buy.stripe.com/REPLACE_ME_sport-pair-8pack",
+    "sport-pair-12": "https://buy.stripe.com/REPLACE_ME_sport-pair-12pack",
+
+    "pt-1on1-4":  "https://buy.stripe.com/REPLACE_ME_pt-1on1-4pack",
+    "pt-1on1-8":  "https://buy.stripe.com/REPLACE_ME_pt-1on1-8pack",
+    "pt-1on1-12": "https://buy.stripe.com/REPLACE_ME_pt-1on1-12pack",
+    "pt-pair-4":  "https://buy.stripe.com/REPLACE_ME_pt-pair-4pack",
+    "pt-pair-8":  "https://buy.stripe.com/REPLACE_ME_pt-pair-8pack",
+    "pt-pair-12": "https://buy.stripe.com/REPLACE_ME_pt-pair-12pack",
+    "pt-trio-4":  "https://buy.stripe.com/REPLACE_ME_pt-trio-4pack",
+    "pt-trio-8":  "https://buy.stripe.com/REPLACE_ME_pt-trio-8pack",
+    "pt-trio-12": "https://buy.stripe.com/REPLACE_ME_pt-trio-12pack",
+
+    "virtual-monthly": "https://buy.stripe.com/REPLACE_ME_virtual-monthly",
+    "hybrid-monthly":  "https://buy.stripe.com/REPLACE_ME_hybrid-monthly"
+  }
+}
