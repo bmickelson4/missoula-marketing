@@ -584,6 +584,22 @@ a { color: inherit; text-decoration: none; }
 .section-dark .section-head .lede,
 .section-dark .eyebrow { color: #aaa; }
 
+/* Buttons inside the dark section: invert ghost styling so they're visible */
+.section-dark .btn-primary {
+  background: #fff;
+  color: var(--ink);
+}
+.section-dark .btn-primary:hover { background: #f0f0f0; }
+.section-dark .btn-ghost {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+}
+.section-dark .btn-ghost:hover {
+  background: #fff;
+  color: var(--ink);
+}
+
 .contact-info {
   max-width: var(--maxw);
   margin: 56px auto 0;
