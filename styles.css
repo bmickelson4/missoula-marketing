@@ -246,6 +246,21 @@ a { color: inherit; text-decoration: none; }
   color: var(--muted);
   margin-top: 1px;
 }
+.cap-note {
+  color: var(--faint);
+  font-style: italic;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.th-note {
+  display: block;
+  font-size: 9px;
+  color: var(--faint);
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  margin-top: 2px;
+  text-transform: none;
+}
 
 .tier-foot {
   font-size: 11.5px;
