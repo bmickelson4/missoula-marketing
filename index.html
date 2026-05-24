@@ -15,7 +15,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="manifest" href="/assets/site.webmanifest">
-<link rel="stylesheet" href="/styles.css?v=13">
+<link rel="stylesheet" href="/styles.css?v=14">
 </head>
 <body>
 
@@ -25,10 +25,10 @@
     <span>Missoula High Performance</span>
   </a>
   <nav class="nav-links">
+    <a href="#virtual">Virtual</a>
     <a href="#sport">Athletes</a>
     <a href="#team">Team Programs</a>
     <a href="#fitness">Adult Fitness</a>
-    <a href="#virtual">Virtual</a>
     <a href="#waivers">Waivers</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -48,6 +48,64 @@
       <a class="btn btn-primary" data-link="calendly" href="#contact">Book a Consultation</a>
       <a class="btn btn-ghost" href="#sport">See Pricing</a>
     </div>
+  </div>
+</section>
+
+<!-- ============ VIRTUAL TRAINING ============ -->
+<section id="virtual" class="section section-alt">
+  <div class="section-head">
+    <p class="eyebrow">Online Coaching &mdash; Train Anywhere</p>
+    <h2>Virtual Training &mdash; MLB-level S&amp;C, delivered to your phone.</h2>
+    <p class="lede">Custom periodized programming through the Missoula High Performance app. For in-season athletes training elsewhere, adults who want real structure, or anyone outside Missoula. Two tiers &mdash; pick the level of touch that fits you.</p>
+  </div>
+
+  <div class="tier-grid tier-grid-2">
+
+    <article class="tier-card">
+      <h3 class="tier-name">Self-Serve</h3>
+      <p class="tier-meta">Solo &middot; Monthly</p>
+      <div class="pack-row">
+        <div class="pack-name">Subscription</div>
+        <div class="pack-price">$50<small>/mo</small></div>
+        <div class="pack-detail">Cancel anytime &middot; no minimum</div>
+      </div>
+      <ul class="tier-features">
+        <li>Custom periodized program in the MHP app</li>
+        <li>Updated programming based on your goals &amp; season</li>
+        <li>Exercise demo videos &amp; cue notes</li>
+        <li>Direct message access &mdash; ask questions, get short answers</li>
+      </ul>
+      <p class="tier-foot">For motivated athletes &amp; adults who train elsewhere and want a real program, not a template.</p>
+      <div class="tier-actions">
+        <a class="btn btn-primary" data-link="stripe" data-product="virtual-monthly">Subscribe &mdash; $50/mo</a>
+      </div>
+    </article>
+
+    <article class="tier-card">
+      <h3 class="tier-name">Video Review + Check-In</h3>
+      <p class="tier-meta">Solo &middot; Monthly</p>
+      <div class="pack-row">
+        <div class="pack-name">Subscription</div>
+        <div class="pack-price">$99<small>/mo</small></div>
+        <div class="pack-detail">Cancel anytime &middot; no minimum</div>
+      </div>
+      <ul class="tier-features">
+        <li><strong>Everything in Self-Serve</strong></li>
+        <li><strong>Bi-weekly video form review</strong> &mdash; upload your training videos, get annotated feedback on cues &amp; technique</li>
+        <li><strong>Bi-weekly written check-in</strong> &mdash; report progress, soreness, PRs &amp; questions</li>
+        <li><strong>Programming adjustments</strong> based on each check-in</li>
+      </ul>
+      <p class="tier-foot">For athletes &amp; adults who want a real coaching cadence and form feedback without an in-person commitment.</p>
+      <div class="tier-actions">
+        <a class="btn btn-primary" data-link="stripe" data-product="virtual-coaching">Subscribe &mdash; $99/mo</a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="cta-strip">
+    <p>Not sure which tier? Talk it through first.</p>
+    <a class="btn btn-primary" data-link="calendly-virtual" href="#contact">Schedule a Virtual Coaching Consult</a>
   </div>
 </section>
 
@@ -143,7 +201,7 @@
     <div class="band-left">
       <p class="band-eyebrow">Online Coaching &mdash; Athletes &amp; Adults</p>
       <h3>Virtual Training</h3>
-      <p>Custom programming delivered through the MHP app. Two tiers &mdash; self-serve with DM access, or video review + bi-weekly check-ins. <a href="#virtual" style="color:inherit;text-decoration:underline;font-weight:700;">See tiers below &rarr;</a></p>
+      <p>Custom programming delivered through the MHP app. Two tiers &mdash; self-serve with DM access, or video review + bi-weekly check-ins. <a href="#virtual" style="color:inherit;text-decoration:underline;font-weight:700;">&uarr; See tiers up top</a></p>
     </div>
     <div class="band-right">
       <div class="big-price">$50<small>/mo start</small></div>
@@ -316,7 +374,7 @@
     <div class="band-left">
       <p class="band-eyebrow">Online Coaching &mdash; Athletes &amp; Adults</p>
       <h3>Virtual Training</h3>
-      <p>Custom programming delivered through the MHP app. Two tiers &mdash; self-serve with DM access, or video review + bi-weekly check-ins. <a href="#virtual" style="color:inherit;text-decoration:underline;font-weight:700;">See tiers below &rarr;</a></p>
+      <p>Custom programming delivered through the MHP app. Two tiers &mdash; self-serve with DM access, or video review + bi-weekly check-ins. <a href="#virtual" style="color:inherit;text-decoration:underline;font-weight:700;">&uarr; See tiers up top</a></p>
     </div>
     <div class="band-right">
       <div class="big-price">$50<small>/mo start</small></div>
@@ -334,64 +392,6 @@
       <div class="big-price">+$40<small>/mo</small></div>
       <a class="btn btn-primary btn-sm" data-link="stripe" data-product="hybrid-monthly">Add Hybrid</a>
     </div>
-  </div>
-</section>
-
-<!-- ============ VIRTUAL TRAINING ============ -->
-<section id="virtual" class="section section-alt">
-  <div class="section-head">
-    <p class="eyebrow">Online Coaching &mdash; Train Anywhere</p>
-    <h2>Virtual Training &mdash; MLB-level S&amp;C, delivered to your phone.</h2>
-    <p class="lede">Custom periodized programming through the Missoula High Performance app. For in-season athletes training elsewhere, adults who want real structure, or anyone outside Missoula. Two tiers &mdash; pick the level of touch that fits you.</p>
-  </div>
-
-  <div class="tier-grid tier-grid-2">
-
-    <article class="tier-card">
-      <h3 class="tier-name">Self-Serve</h3>
-      <p class="tier-meta">Solo &middot; Monthly</p>
-      <div class="pack-row">
-        <div class="pack-name">Subscription</div>
-        <div class="pack-price">$50<small>/mo</small></div>
-        <div class="pack-detail">Cancel anytime &middot; no minimum</div>
-      </div>
-      <ul class="tier-features">
-        <li>Custom periodized program in the MHP app</li>
-        <li>Updated programming based on your goals &amp; season</li>
-        <li>Exercise demo videos &amp; cue notes</li>
-        <li>Direct message access &mdash; ask questions, get short answers</li>
-      </ul>
-      <p class="tier-foot">For motivated athletes &amp; adults who train elsewhere and want a real program, not a template.</p>
-      <div class="tier-actions">
-        <a class="btn btn-primary" data-link="stripe" data-product="virtual-monthly">Subscribe &mdash; $50/mo</a>
-      </div>
-    </article>
-
-    <article class="tier-card">
-      <h3 class="tier-name">Video Review + Check-In</h3>
-      <p class="tier-meta">Solo &middot; Monthly</p>
-      <div class="pack-row">
-        <div class="pack-name">Subscription</div>
-        <div class="pack-price">$99<small>/mo</small></div>
-        <div class="pack-detail">Cancel anytime &middot; no minimum</div>
-      </div>
-      <ul class="tier-features">
-        <li><strong>Everything in Self-Serve</strong></li>
-        <li><strong>Bi-weekly video form review</strong> &mdash; upload your training videos, get annotated feedback on cues &amp; technique</li>
-        <li><strong>Bi-weekly written check-in</strong> &mdash; report progress, soreness, PRs &amp; questions</li>
-        <li><strong>Programming adjustments</strong> based on each check-in</li>
-      </ul>
-      <p class="tier-foot">For athletes &amp; adults who want a real coaching cadence and form feedback without an in-person commitment.</p>
-      <div class="tier-actions">
-        <a class="btn btn-primary" data-link="stripe" data-product="virtual-coaching">Subscribe &mdash; $99/mo</a>
-      </div>
-    </article>
-
-  </div>
-
-  <div class="cta-strip">
-    <p>Not sure which tier? Talk it through first.</p>
-    <a class="btn btn-primary" data-link="calendly-virtual" href="#contact">Schedule a Virtual Coaching Consult</a>
   </div>
 </section>
 
