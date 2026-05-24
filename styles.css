@@ -711,6 +711,19 @@ a { color: inherit; text-decoration: none; }
 }
 .ci-value { font-size: 18px; font-weight: 700; }
 .ci-value a { text-decoration: underline; }
+.ci-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 15px;
+}
+.ci-stack a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ci-stack a:hover { color: #ffd87a; text-decoration: underline; }
 
 /* ============ COACH SECTION ============ */
 .section-coach { background: var(--bg-2); }
