@@ -1,6 +1,8 @@
 {
   "_comment": "Source of truth for every clickable URL on the site. Replace REPLACE_ME values after creating the corresponding Calendly event, PandaDoc document, or Stripe Payment Link. Refresh the site after saving \u2014 no rebuild needed.",
-  "calendly": "https://calendly.com/missoulahp/30min",
+  "calendly": "https://calendly.com/missoulahp/general-consultation-clone",
+  "calendly-team": "https://calendly.com/missoulahp/team-consultation-clone",
+  "calendly-virtual": "https://calendly.com/missoulahp/virtual-training-consultation-clone",
   "waiver-adult": "https://form.jotform.com/261417138062149",
   "waiver-minor": "https://form.jotform.com/261417098087161",
   "stripe": {
